@@ -1,4 +1,4 @@
-![Alt text](/Deploying a static website/Host_a_Static_Website_on_AWS (1).png)
+![Alt text](/awsprojects/Deploying a static website/Host_a_Static_Website_on_AWS (1).png)
 
 
 ---
