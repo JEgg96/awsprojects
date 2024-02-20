@@ -1,3 +1,8 @@
+![Alt text](/Deploying a static website/Host_a_Static_Website_on_AWS (1).png)
+
+
+---
+
 # README: Hosting a Static Website on AWS
 
 This README provides an overview of the DevOps project for hosting a static HTML web app on AWS. Below are the steps and resources utilized to deploy the web app on an EC2 instance within a well-architected AWS environment.
