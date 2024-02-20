@@ -52,7 +52,7 @@ This project aims to host a static website on AWS, ensuring reliability, scalabi
     - Registered the domain name and set up a DNS record using Route 53 for routing traffic to the hosted website.
 
 ## Repository Information
-The reference diagram and deployment scripts used for this project are available in [the GitHub repository provided.](https://github.com/jegg96/awsprojects/deploying-a-static-website)
+The reference diagram and deployment scripts used for this project are available in [the GitHub repository provided.](https://github.com/jegg96/awsprojects)
 
 #Deployment Script
 
