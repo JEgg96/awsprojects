@@ -55,39 +55,34 @@ This project aims to host a static website on AWS, ensuring reliability, scalabi
 The reference diagram and deployment scripts used for this project are available in [the GitHub repository provided.](https://github.com/jegg96/awsprojects)
 
 #Deployment Script
-
 #!/bin/bash
 
-# Switch to the root user to gain full administrative privileges
-sudo su
-
 # Update all installed packages to their latest versions
-yum update -y
+sudo yum update -y
 
 # Install Apache HTTP Server
-yum install -y httpd
+sudo yum install -y httpd
 
 # Change the current working directory to the Apache web root
 cd /var/www/html
 
 # Install Git
-yum install git -y
+sudo yum install git -y
 
 # Clone the project GitHub repository to the current directory
-git clone https://github.com/jegg96/awsprojects
+sudo git clone https://github.com/jegg96/awsprojects
 
 # Copy all files, including hidden ones, from the cloned repository to the Apache web root
-cp -R awsprojects/. /var/www/html/
+sudo cp -R awsprojects/. /var/www/html/
 
 # Remove the cloned repository directory to clean up unnecessary files
-rm -rf awsprojects
+sudo rm -rf awsprojects
 
 # Enable the Apache HTTP Server to start automatically at system boot
-systemctl enable httpd 
+sudo systemctl enable httpd 
 
 # Start the Apache HTTP Server to serve web content
-systemctl start httpd
-
+sudo systemctl start httpd
 
 ## Conclusion
 By following this README and utilizing the provided resources, users can effectively deploy a static website on AWS, ensuring high availability, scalability, security, and fault tolerance.
