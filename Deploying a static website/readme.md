@@ -1,4 +1,5 @@
-![Alt text](/Host_a_Static_Website_on_AWS (1).png)
+![Host_a_Static_Website_on_AWS (1)](https://github.com/JEgg96/awsprojects/assets/150167799/55bb949a-4e93-4d0f-a4dd-98fa3e9963c4)
+
 
 
 ---
