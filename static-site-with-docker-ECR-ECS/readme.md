@@ -1,5 +1,7 @@
 ##**Project Overview**
 
+![1 _Docker](https://github.com/JEgg96/awsprojects/assets/150167799/ce161b14-0885-4ef6-93db-ecfa9489d192)
+
 
 
 This readme provides an overview of the AWS project setup for a static website deployment using Docker, AWS ECS (Elastic Container Service), VPC (Virtual Private Cloud), Route 53, AWS Certificate Manager, and IAM (Identity and Access Management).
