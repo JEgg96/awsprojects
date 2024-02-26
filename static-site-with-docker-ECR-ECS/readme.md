@@ -61,6 +61,7 @@ The project involves deploying a static website on AWS using Docker containers. 
 8. **Create ECS Cluster and Task Definition:**
     - Create an ECS cluster to manage container instances.
     - Define a task definition specifying your Docker image and resource requirements.
+    - Create a service for your task.
     - Configure task networking mode and container port mappings.
 
 9. **Deploy ECS Service:**
