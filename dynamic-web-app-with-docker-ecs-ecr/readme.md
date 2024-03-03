@@ -5,7 +5,6 @@
 This guide provides step-by-step instructions for deploying a dynamic web application on AWS using Docker, AWS Elastic Container Service (ECS), Virtual Private Cloud (VPC), Route 53, AWS Certificate Manager (ACM), and other AWS services. Additionally, deployment scripts are included to automate the deployment process.
 
 ## Prerequisites
-
 Before proceeding, ensure you have the following:
 
 - An AWS account
@@ -16,12 +15,11 @@ Before proceeding, ensure you have the following:
 ## Steps
 
 ### 1. Build and Push Docker Image
-
 - Build a Docker container image for your web application.
 - Create a repository in Docker Hub and push the image to this repository.
 - Ensure you have Docker installed and configured properly.
 
-Deployment Script:
+**Deployment Script:**
 ```bash
 # Build Docker image
 docker build -t <your-image-name> .
@@ -35,11 +33,10 @@ docker push <docker-hub-username>/<repository-name>:<tag>
 ```
 
 ### 2. Create ECR Repository and Push Image
-
 - Create an Amazon Elastic Container Registry (ECR) repository to store your Docker image.
 - Push the Docker image from Docker Hub to the ECR repository.
 
-Deployment Script:
+**Deployment Script:**
 ```bash
 # Create ECR repository
 aws ecr create-repository --repository-name <repository-name>
@@ -55,7 +52,6 @@ docker push <aws-account-id>.dkr.ecr.<region>.amazonaws.com/<repository-name>:<t
 ```
 
 ### 3. Set Up AWS Infrastructure
-
 - Create a three-tier AWS network using Virtual Private Cloud (VPC), NAT gateways, and an Application Load Balancer (ALB).
 - Create an ECS cluster and a task definition with the necessary configurations for your web application.
 - Set up Route 53 domain and create a record set.
@@ -63,20 +59,19 @@ docker push <aws-account-id>.dkr.ecr.<region>.amazonaws.com/<repository-name>:<t
 - Create an S3 bucket to store environment variables file.
 - Use an IAM Role for the ECS task definition.
 
-Deployment Script:
+**Deployment Script:**
 ```bash
 # Use AWS CloudFormation or AWS Management Console to set up VPC, ALB, ECS cluster, Route 53, ACM, and S3 bucket.
 # Configure IAM Role for ECS task definition via AWS Management Console or AWS CLI.
 ```
 
 ### 4. Deploy Web Application
-
 - Deploy the ECS service using the task definition created in the previous step.
 - Create an HTTPS listener for the ALB to make the site secure.
 - Configure environment variables for the ECS service using the S3 bucket.
 - Associate the Route 53 domain with the ALB.
 
-Deployment Script:
+**Deployment Script:**
 ```bash
 # Use AWS CLI or AWS Management Console to deploy ECS service.
 # Configure HTTPS listener for ALB via AWS Management Console or AWS CLI.
@@ -85,5 +80,4 @@ Deployment Script:
 ```
 
 ## Conclusion
-
 By following these steps and using the provided deployment scripts, you can deploy your dynamic web application on AWS efficiently. Make sure to customize the scripts and configurations according to your specific application requirements and preferences. Happy deploying!
