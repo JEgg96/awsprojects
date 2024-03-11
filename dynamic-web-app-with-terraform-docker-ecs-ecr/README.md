@@ -29,11 +29,9 @@ Make sure you have your AWS credentials configured on your local machine. You ca
 Clone the repository containing your web application code and Terraform configuration.
 
 
-
-bash
-Copy code
 git clone <repository-url>
 cd <repository-directory>
+
 3. Dockerize your web application
 Create a Dockerfile in the root directory of your project to containerize your web application. Make sure you have a working Dockerfile that builds your application into a Docker image.
 
