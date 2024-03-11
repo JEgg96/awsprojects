@@ -1,5 +1,3 @@
-Certainly! Below is a sample README.md for your CI/CD project where Docker images are built and pushed to Docker Hub:
-
 # CI/CD Project README
 
 This project implements Continuous Integration/Continuous Deployment (CI/CD) pipelines to automate the building and pushing of Docker images to Docker Hub. It enables developers to efficiently manage and deploy containerized applications with ease.
