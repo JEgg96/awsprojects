@@ -68,10 +68,6 @@ Contributions to improve the CI/CD pipeline or add new features are welcome! If 
 
 Dockerfile Scripts that I created are available here: https://github.com/JEgg96/cicd-build-docker-image
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 Feel free to customize this README according to your project specifics and requirements. Happy coding!
