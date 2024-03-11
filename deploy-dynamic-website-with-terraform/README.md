@@ -60,5 +60,7 @@ variables.tf: Declares the input variables used in the Terraform configuration.
 
 outputs.tf: Defines the output values to be displayed after successful deployment.
 
+All terraform scripts are available in: https://github.com/JEgg96/terraform-projects
+
 
 
