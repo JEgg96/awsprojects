@@ -1,7 +1,3 @@
-Certainly! Below is a revised and formatted version of the guide:
-
----
-
 # Deploy Dynamic Web App on AWS with Terraform, Docker, Amazon ECR, and ECS
 
 This guide walks you through deploying a dynamic web application on Amazon Web Services (AWS) using Terraform, Docker, Amazon Elastic Container Registry (ECR), and Elastic Container Service (ECS).
