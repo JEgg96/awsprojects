@@ -59,7 +59,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## Acknowledgments
 
 - [Terraform](https://www.terraform.io/) for providing infrastructure as code capabilities.
-- [Azez Salu](https://github.com/azeezsalu) for providing the source code skeleton and enabling collaborative development.
+- [Azeez Salu](https://github.com/azeezsalu) for providing the source code skeleton and enabling collaborative development.
 - Your cloud provider for hosting the infrastructure.
 - All scripts I made are on https://github.com/JEgg96/terraform-projects-2.0
 
