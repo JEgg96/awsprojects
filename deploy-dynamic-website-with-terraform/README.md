@@ -1,6 +1,6 @@
 ![1 Terraform-Ecommerce](https://github.com/JEgg96/awsprojects/assets/150167799/5c0c3b1d-a20a-4379-afa0-b5ee54c2f760)
 Terraform AWS E-commerce Website Deployment
-Welcome to the Terraform AWS E-commerce Website Deployment repository! This repository contains Terraform scripts to effortlessly deploy an AWS infrastructure tailored for an e-commerce website. By following the instructions provided here, you'll be able to set up a fully functional infrastructure comprising various AWS resources necessary to run your e-commerce platform smoothly.
+                                          Terraform AWS E-commerce Website Deployment 
 
 Prerequisites
 Before you begin deploying the infrastructure, make sure you have the following prerequisites set up on your local machine:
